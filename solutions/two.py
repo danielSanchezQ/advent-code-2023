@@ -3,6 +3,7 @@ from lark import Lark, Transformer
 from itertools import groupby, chain
 from collections import defaultdict
 from functools import reduce
+
 grammar = r"""
 // A bunch of words
 start: game round*
